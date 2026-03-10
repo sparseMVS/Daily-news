@@ -31,7 +31,17 @@ def build_readme(files: list[Path]) -> str:
         return "\n".join(lines)
 
     latest = files[0]
-    lines.append(f"- [{latest.name}](./每周新闻汇总/{latest.name})")
+    lines.append(latest.read_text(encoding="utf-8").strip())
+    lines.append("")
+
+    lines.append("## 上周周报")
+    lines.append("")
+
+    if len(files) > 1:
+        lines.append(files[1].read_text(encoding="utf-8").strip())
+    else:
+        lines.append("暂无上周周报。")
+
     lines.append("")
     lines.append("## 全部周报")
     lines.append("")

@@ -13,4 +13,4 @@ if git -C "$ROOT" diff --cached --quiet; then
 fi
 
 git -C "$ROOT" commit -m "Update weekly news"
-git -C "$ROOT" push origin master
+git -C "$ROOT" push -u origin HEAD
