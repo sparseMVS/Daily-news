@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+.claude/
+.codex/
+
+*.log
+*.tmp
+*.swp
+*.swo
+
+__pycache__/
+*.pyc
+*.pyo
+
+每周新闻汇总/????-??.md
