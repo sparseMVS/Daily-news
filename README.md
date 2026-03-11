@@ -10,39 +10,31 @@
 
 ### 论文 / 技术报告
 
-**1. [AtomVLA: Vision-Language-Action Model with Predictive Latent World Models for Robotic Manipulation](https://arxiv.org/abs/2603.08519)**
-- **来源平台**：Arxiv
-- **子方向**：具身智能
+**1. [MXFP4: Micro-Scaling FP4 for Efficiently Serving 8x Larger Models with Minimal Accuracy Loss](https://arxiv.org/abs/2603.08713)**
+- **来源平台**：arXiv
+- **子方向**：大模型
 - **推荐等级**：高
-- **摘要**：该工作将 VLA 与预测式潜在世界模型结合，目标是在机器人操作中同时提升语义理解与动作规划能力。方法强调通过可预测的潜空间动态改进长时序决策稳定性，并尝试缓解仅靠行为克隆带来的泛化瓶颈，具备较强工程落地潜力。（来自搜索摘要）
+- **摘要**：这篇论文聚焦大模型推理基础设施，提出 MXFP4 微缩放 4-bit 浮点格式，希望在精度损失可控的前提下，把可服务模型规模提升到原来的约 8 倍。若结果稳定，它会直接影响大模型部署成本、显存占用和在线服务吞吐，是近期较有工程价值的系统优化信号。
 
-**2. [3PoinTr: Vision-Language-Centric 3D Point Tracks for Robotics Manipulation](https://arxiv.org/abs/2603.08485)**
-- **来源平台**：Arxiv
-- **子方向**：3D视觉
+**2. [Comparative Analysis of Patch Attack on VLM-Based Autonomous Driving Architectures](https://arxiv.org/abs/2603.08897)**
+- **来源平台**：arXiv
+- **子方向**：自动驾驶
 - **推荐等级**：中
-- **摘要**：3PoinTr 聚焦机器人操作中的三维点轨迹表示，将视觉语言信息与 3D 点级时序建模结合，用于提升跨视角与跨任务的感知一致性。其核心价值在于为抓取与交互过程提供更稳定的空间跟踪先验，强化感知到控制链路。（来自搜索摘要）
+- **摘要**：该工作比较了视觉语言模型驱动自动驾驶架构在补丁攻击下的脆弱性差异，重点分析感知输入被局部扰动后，对规划与控制链路造成的连锁影响。它不是直接提升性能的论文，但对端到端自动驾驶系统的安全评测、鲁棒训练和上线门槛有现实参考价值。
+
+**3. [EvoDriveVLA: Evolving Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.09465)**
+- **来源平台**：arXiv
+- **子方向**：自动驾驶
+- **推荐等级**：高
+- **摘要**：EvoDriveVLA 把 Vision-Language-Action 框架引入端到端自动驾驶，希望统一处理场景理解、驾驶意图表达与控制决策，并通过演化式训练改进复杂路况下的泛化表现。该方向延续了“大模型化驾驶栈”的趋势，值得持续跟踪其数据效率和真实路测表现。
 
 ### 行业新闻 / 产品动态
 
-**1. [Humanoid Global Announces Strategic Advisory Board to Accelerate AI-Powered Industrial Automation](https://www.taiwannews.com.tw/news/6070806)**
-- **来源平台**：Taiwan News / GlobeNewswire
-- **子方向**：具身智能
-- **推荐等级**：低
-- **摘要**：Humanoid Global 在 2026-03-11 披露新顾问委员会，成员覆盖机器人自动化、工业运营与资本领域，重点支持其 AI 驱动工业自动化路线。该信息以组织与资源整合为主，技术细节有限，但可作为具身智能产业化推进节奏的早期信号持续跟踪。
-
-**2. [Yann LeCun’s AMI Labs raises $1.03 billion to build world models](https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/)**
-- **来源平台**：TechCrunch
-- **子方向**：世界模型
-- **推荐等级**：高
-- **摘要**：TechCrunch 报道 AMI Labs 完成 10.3 亿美元融资，围绕世界模型方向布局基础研究与产品化路径，并获得多家大型科技公司与产业资本支持。该事件显示“可预测环境建模”正从学术热点转向高强度产业投资赛道，商业验证预期提升。
+暂无相关内容。
 
 ### 一手动态
 
-**1. [AMI](https://www.ami.co/)**
-- **来源平台**：AMI Labs（官网）
-- **子方向**：世界模型
-- **推荐等级**：中
-- **摘要**：AMI 官网持续以“开放且可理解的世界模型”为核心叙事，强调将对物理与环境动态的建模能力转化为可扩展的平台能力。虽然页面披露的技术细节有限，但其一手定位与公开愿景可为后续论文、产品发布和生态合作提供基础追踪锚点。
+暂无相关内容。
 
 ## 2026-03-10
 
@@ -52,69 +44,41 @@
 
 ### 行业新闻 / 产品动态
 
-**1. [Foresight Advances Commercialization for Smart City and Road Safety Solutions with Leading Japanese Manufacturer](https://www.globenewswire.com/news-release/2026/03/10/3252765/0/en/Foresight-Advances-Commercialization-for-Smart-City-and-Road-Safety-Solutions-with-Leading-Japanese-Manufacturer.html)**
-- **来源平台**：GlobeNewswire / Foresight Autonomous Holdings
-- **子方向**：3D视觉
+**1. [Anthropic opens first office in Asia Pacific, boosting AI collaboration and innovation](https://www.anthropic.com/news/anthropic-opens-first-office-in-asia-pacific-boosting-ai-collaboration-and-innovation)**
+- **来源平台**：Anthropic
+- **子方向**：大模型
 - **推荐等级**：中
-- **摘要**：Foresight 于 2026-03-10 宣布与日本道路交通与监测厂商推进 3D 感知系统商业化，方案将可见光与热红外双目相机部署到巡逻或服务车辆，用于限制车道识别、危险提醒和匝道并线监测。该动态说明 3D 视觉正从车端感知继续外溢到智慧城市与道路基础设施场景。
+- **摘要**：Anthropic 于 2026-03-10 宣布在悉尼设立其首个亚太办公室，重点面向本地研究合作、企业采用和政策沟通。虽然这不是新模型发布，但它反映头部大模型公司正加快区域化落地与商业网络建设，侧面说明模型服务和合规支持正在向全球市场进一步延展。
 
 ### 一手动态
 
-**1. [LexxPluss CEO Masaya Aso Submits Policy Proposal to METI: “Making Physical AI a 100-Year Infrastructure”](https://lexxpluss.com/press-release/policy_recommendation_202603/)**
-- **来源平台**：LexxPluss
-- **子方向**：具身智能
+**1. [Use Gemini in Google Workspace to stay in the flow of work](https://workspace.google.com/blog/product-announcements/use-gemini-in-google-workspace-to-stay-in-the-flow-of-work)**
+- **来源平台**：Google Workspace Blog
+- **子方向**：大模型
 - **推荐等级**：中
-- **摘要**：LexxPluss 在 2026-03-10 官方稿中提出将 Physical AI 视作“百年基础设施”，主张通过产业型人形机器人、母工厂与可信 AI 认证体系来应对劳动力收缩。虽然这更偏政策倡议而非产品发布，但它为日本制造业如何把具身智能纳入国家级产业规划提供了一手信号。
+- **摘要**：Google Workspace 官方博客在 2026-03-10 更新 Gemini 办公流能力，强调在文档、邮件和协作场景内更连续地调用模型辅助生成、检索与整理功能。它不属于底座模型升级，但反映大模型产品竞争正从参数规模转向工作流渗透、用户留存和实际协同效率。
 
 ## 2026-03-09
 
 ### 论文 / 技术报告
 
-**1. [Interactive World Simulator for Robot Policy Training and Evaluation](https://arxiv.org/abs/2603.08546)**
-- **来源平台**：arXiv
-- **子方向**：世界模型
-- **推荐等级**：高
-- **摘要**：该工作把动作条件视频预测推进为可交互机器人世界模拟器，利用 consistency model 同时处理图像解码与潜空间动力学，在单张 RTX 4090 上可稳定生成超过 10 分钟、15 FPS 的交互序列，并支持仅用模拟数据训练出接近真实数据效果的策略，适合机器人数据生成与评测。
-
-**2. [MetaWorld-X: Hierarchical World Modeling via VLM-Orchestrated Experts for Humanoid Loco-Manipulation](https://arxiv.org/abs/2603.08572)**
-- **来源平台**：arXiv
-- **子方向**：具身智能
-- **推荐等级**：中
-- **摘要**：MetaWorld-X 面向人形机器人行走与操作一体化控制，把复杂全身任务拆解为多个受人体运动先验约束的专家策略，再由视觉语言模型驱动的路由机制按语义动态组合。其价值在于缓解跨技能干扰，并提升复杂任务组合下的稳定性与泛化能力。
-
-**3. [Spherical-GOF: Geometry-Aware Panoramic Gaussian Opacity Fields for 3D Scene Reconstruction](https://arxiv.org/abs/2603.08503)**
-- **来源平台**：arXiv
-- **子方向**：3D视觉
-- **推荐等级**：中
-- **摘要**：Spherical-GOF 将 Gaussian Opacity Fields 扩展到全景相机建模，在单位球面上完成射线采样，并加入球面包围和滤波机制，以缓解 3DGS 在全景成像中的畸变与几何不一致问题。作者还引入面向 UAV 与四足平台的 OmniRob 数据集，强化了其在机器人三维感知中的应用指向。
+暂无相关内容。
 
 ### 行业新闻 / 产品动态
 
-**1. [ABB Robotics Taps NVIDIA Omniverse to Deliver Industrial-Grade Physical AI at Scale](https://blogs.nvidia.com/blog/abb-robotics-omniverse/)**
-- **来源平台**：NVIDIA Blog
-- **子方向**：具身智能
+**1. [Zoox is mapping more cities as it expands robotaxi tests](https://techcrunch.com/2026/03/09/zoox-is-mapping-more-cities-as-it-expands-robotaxi-tests/)**
+- **来源平台**：TechCrunch
+- **子方向**：自动驾驶
 - **推荐等级**：高
-- **摘要**：ABB 与 NVIDIA 于 2026-03-09 宣布把 Omniverse 库接入 RobotStudio，推出 RobotStudio HyperReality，用统一仿真、合成数据与虚拟控制器缩小 sim-to-real gap。官方称该方案可把部署成本最多压缩 40%、上市时间加快 50%，并已在 Foxconn 等客户处进入试点阶段。
-
-**2. [NEURA Robotics and Qualcomm Enter Strategic Collaboration to Advance Physical AI and Cognitive Robotics](https://neura-robotics.com/neura-qualcomm-collaboration-physical-ai/)**
-- **来源平台**：NEURA Robotics
-- **子方向**：具身智能
-- **推荐等级**：高
-- **摘要**：NEURA 与 Qualcomm 在 2026-03-09 公布长期合作，围绕“Brain + Nervous System”参考架构把 Dragonwing Robotics 处理器、边缘 AI 与 NEURA 全栈机器人系统结合，目标是推动人形与通用机器人从实验原型走向标准化、可规模部署的量产平台，商业化信号较强。
+- **摘要**：TechCrunch 于 2026-03-09 报道，Zoox 正把机器人出租车测试的测绘和验证工作扩展到更多美国城市，为后续商用部署铺路。相较单次演示，这类“先测绘、再验证、再放量”的城市扩张节奏更能反映自动驾驶公司真实的运营推进情况和监管沟通成熟度。
 
 ### 一手动态
 
-**1. [Leipzig debut: BMW Group introduces humanoid robots – a first in Germany.](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html)**
-- **来源平台**：BMW Group
-- **子方向**：具身智能
+**1. [Inside Zoox's Secret Approach to Mapping New Cities](https://zoox.com/journal/inside-zooxs-secret-approach-to-mapping-new-cities)**
+- **来源平台**：Zoox
+- **子方向**：自动驾驶
 - **推荐等级**：高
-- **摘要**：BMW 于 2026-03-09 披露其莱比锡工厂启动欧洲首个人形机器人试点，并与 Hexagon 合作测试 AEON 在高压电池组装和零部件制造中的应用。相比概念演示，这是一条直接面向量产线的验证路径，说明 physical AI 已开始进入欧洲汽车制造体系的真实工位。
-
-**2. [HONOR Debuts Its First Humanoid Robot Featuring Orbbec’s Stereo Vision 3D Camera](https://www.orbbec.com/news/honor-debuts-its-first-humanoid-robot-featuring-orbbecs-stereo-vision-3d-camera/)**
-- **来源平台**：Orbbec
-- **子方向**：3D视觉
-- **推荐等级**：中
-- **摘要**：Orbbec 在 2026-03-09 官方新闻中披露，HONOR 于 MWC 2026 展出首款 embodied AI humanoid，并采用 Gemini 330 系列双目 3D 相机提供深度感知。该动态更偏展示与生态预热，但反映消费电子厂商正把 3D 视觉与机器人终端协同视作新入口，值得跟踪后续量产节奏。
+- **摘要**：Zoox 官网文章披露了其进入新城市前的测绘方法论，核心在于先构建高质量地图和场景先验，再逐步推进真实道路验证。这类一手材料虽然不会给出完整商业指标，但能补足媒体报道没有展开的技术运营细节，对判断自动驾驶扩张路径是否可复制很有帮助。
 
 ## 上周周报
 
