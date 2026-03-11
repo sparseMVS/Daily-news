@@ -10,27 +10,49 @@
 
 ### 论文 / 技术报告
 
-**1. [MXFP4: Micro-Scaling FP4 for Efficiently Serving 8x Larger Models with Minimal Accuracy Loss](https://arxiv.org/abs/2603.08713)**
+**1. [ReCoSplat: Autoregressive Feed-Forward Gaussian Splatting Using Render-and-Compare](https://arxiv.org/abs/2603.09968)**
 - **来源平台**：arXiv
-- **子方向**：大模型
+- **子方向**：3D视觉
 - **推荐等级**：高
-- **摘要**：这篇论文聚焦大模型推理基础设施，提出 MXFP4 微缩放 4-bit 浮点格式，希望在精度损失可控的前提下，把可服务模型规模提升到原来的约 8 倍。若结果稳定，它会直接影响大模型部署成本、显存占用和在线服务吞吐，是近期较有工程价值的系统优化信号。
+- **摘要**：ReCoSplat 面向在线新视角合成与顺序场景重建，采用自回归前馈式 Gaussian Splatting，在已知或未知相机位姿、内参条件下都能工作。论文引入 Render-and-Compare 模块，用预测视角下的渲染结果和新观测对齐，缓解训练时真值位姿与推理时预测位姿之间的分布偏差，并用混合 KV cache 压缩把长序列缓存成本压低 90% 以上。
 
-**2. [Comparative Analysis of Patch Attack on VLM-Based Autonomous Driving Architectures](https://arxiv.org/abs/2603.08897)**
+**2. [VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models](https://arxiv.org/abs/2603.09826)**
 - **来源平台**：arXiv
-- **子方向**：自动驾驶
+- **子方向**：3D视觉
+- **推荐等级**：高
+- **摘要**：VLM-Loc 聚焦“文本描述定位到 3D 点云地图”这一任务，把点云转换成 BEV 图像和场景图后交给视觉语言模型做跨模态空间推理，并通过部分节点分配机制把文本线索和图结构显式绑定。作者同时发布 CityLoc 基准，覆盖多源点云场景。对空间理解、语言导航和机器人场景检索方向都有较强参考价值。
+
+**3. [NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models](https://arxiv.org/abs/2603.09542)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：NS-VLA 把神经符号方法引入 Vision-Language-Action 模型，试图解决 VLA 对大规模示范数据和复杂网络结构依赖过强的问题。框架通过符号编码器抽取结构化动作原语，再由符号求解器做高效动作编排，并用在线强化学习扩展探索空间。论文在机器人操作基准上强调更好的单次训练表现、零样本泛化和抗数据扰动能力。
+
+**4. [DexHiL: A Human-in-the-Loop Framework for Vision-Language-Action Model Post-Training in Dexterous Manipulation](https://arxiv.org/abs/2603.09121)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：DexHiL 关注灵巧操作里的 VLA 后训练，把人类在执行过程中的即时纠错纳入臂手协同系统，并设计干预感知的数据采样策略，优先学习真正暴露失败模式的片段。论文给出真实机器人实验结果，平均任务成功率比单纯离线微调高出约 25%，对“如何把通用 VLA 调到具体硬件和复杂接触任务上”很有现实意义。
+
+**5. [How to Think in Latent Space: Structured Cognitive Prompting for World Models](https://arxiv.org/abs/2603.09736)**
+- **来源平台**：arXiv
+- **子方向**：世界模型
 - **推荐等级**：中
-- **摘要**：该工作比较了视觉语言模型驱动自动驾驶架构在补丁攻击下的脆弱性差异，重点分析感知输入被局部扰动后，对规划与控制链路造成的连锁影响。它不是直接提升性能的论文，但对端到端自动驾驶系统的安全评测、鲁棒训练和上线门槛有现实参考价值。
-
-**3. [EvoDriveVLA: Evolving Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.09465)**
-- **来源平台**：arXiv
-- **子方向**：自动驾驶
-- **推荐等级**：高
-- **摘要**：EvoDriveVLA 把 Vision-Language-Action 框架引入端到端自动驾驶，希望统一处理场景理解、驾驶意图表达与控制决策，并通过演化式训练改进复杂路况下的泛化表现。该方向延续了“大模型化驾驶栈”的趋势，值得持续跟踪其数据效率和真实路测表现。
+- **摘要**：这篇工作把关注点放在世界模型的潜空间推理过程，提出 structured cognitive prompting，希望在不显式展开高成本像素轨迹的前提下，把规划、状态演化和策略选择转化为更结构化的潜变量思考流程。公开信息目前主要来自搜索摘要，但方向上契合“让 world model 更可控、更可解释地服务决策”的近期趋势。（来自搜索摘要）
 
 ### 行业新闻 / 产品动态
 
-暂无相关内容。
+**1. [Genesis AI Launches With $105 Million To Build A Universal Robotics Foundation Model And Horizontal Robotics Platform](https://www.prnewswire.com/apac/news-releases/genesis-ai-launches-with-105-million-to-build-a-universal-robotics-foundation-model-and-horizontal-robotics-platform-302396516.html)**
+- **来源平台**：PR Newswire
+- **子方向**：具身智能
+- **推荐等级**：中
+- **摘要**：Genesis AI 于 2026-03-11 宣布完成 1.05 亿美元融资，定位为通用机器人基础模型与横向机器人平台公司，叙事重点放在以物理引擎、合成数据和基础模型支撑跨机器人形态迁移。虽然目前公开信息偏公司公告口径，但它反映资本市场仍在持续押注 physical AI 与通用机器人软件栈的基础设施机会。
+
+**2. [Luminous Ventures launches $63 million fund to back AI “supercycle” at seed stage](https://tech.eu/2026/03/11/luminous-ventures-launches-63-million-fund-to-back-ai-supercycle-at-seed-stage/)**
+- **来源平台**：tech.eu
+- **子方向**：AI robotics
+- **推荐等级**：低
+- **摘要**：tech.eu 报道 Luminous Ventures 推出 6300 万美元新基金，投资方向覆盖 AI、机器人和相关基础设施。它不是直接的产品发布，但能作为行业侧信号，说明早期资本对“AI 与机器人结合”仍保持积极配置意愿。对观察具身智能融资环境、创业窗口和欧洲市场温度有一定辅助价值。
 
 ### 一手动态
 
