@@ -14,45 +14,35 @@
 - **来源平台**：arXiv
 - **子方向**：3D视觉
 - **推荐等级**：高
-- **摘要**：ReCoSplat 面向在线新视角合成与顺序场景重建，采用自回归前馈式 Gaussian Splatting，在已知或未知相机位姿、内参条件下都能工作。论文引入 Render-and-Compare 模块，用预测视角下的渲染结果和新观测对齐，缓解训练时真值位姿与推理时预测位姿之间的分布偏差，并用混合 KV cache 压缩把长序列缓存成本压低 90% 以上。
+- **摘要**：ReCoSplat 面向在线新视角合成与顺序场景重建，采用自回归前馈式 Gaussian Splatting，在已知或未知相机位姿条件下都能工作。论文引入 Render-and-Compare 模块，用渲染结果和新观测对齐来减轻位姿预测误差带来的分布偏差，并以混合 KV cache 压缩把长序列缓存成本明显压低。
 
 **2. [VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models](https://arxiv.org/abs/2603.09826)**
 - **来源平台**：arXiv
 - **子方向**：3D视觉
 - **推荐等级**：高
-- **摘要**：VLM-Loc 聚焦“文本描述定位到 3D 点云地图”这一任务，把点云转换成 BEV 图像和场景图后交给视觉语言模型做跨模态空间推理，并通过部分节点分配机制把文本线索和图结构显式绑定。作者同时发布 CityLoc 基准，覆盖多源点云场景。对空间理解、语言导航和机器人场景检索方向都有较强参考价值。
+- **摘要**：VLM-Loc 聚焦“文本描述定位到 3D 点云地图”任务，把点云转换为 BEV 图像和场景图后交给视觉语言模型做跨模态空间推理，并通过节点分配机制把文本线索和图结构显式绑定。作者同时发布 CityLoc 基准，对空间理解、语言导航和机器人场景检索都有较强参考价值。
 
 **3. [NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models](https://arxiv.org/abs/2603.09542)**
 - **来源平台**：arXiv
 - **子方向**：具身智能
 - **推荐等级**：高
-- **摘要**：NS-VLA 把神经符号方法引入 Vision-Language-Action 模型，试图解决 VLA 对大规模示范数据和复杂网络结构依赖过强的问题。框架通过符号编码器抽取结构化动作原语，再由符号求解器做高效动作编排，并用在线强化学习扩展探索空间。论文在机器人操作基准上强调更好的单次训练表现、零样本泛化和抗数据扰动能力。
+- **摘要**：NS-VLA 把神经符号方法引入 Vision-Language-Action 模型，试图缓解 VLA 对大规模示范数据和复杂网络结构的依赖。框架通过符号编码器抽取结构化动作原语，再由符号求解器做动作编排，并用在线强化学习扩展探索空间，强调更好的单次训练表现、零样本泛化与抗数据扰动能力。
 
 **4. [DexHiL: A Human-in-the-Loop Framework for Vision-Language-Action Model Post-Training in Dexterous Manipulation](https://arxiv.org/abs/2603.09121)**
 - **来源平台**：arXiv
 - **子方向**：具身智能
 - **推荐等级**：高
-- **摘要**：DexHiL 关注灵巧操作里的 VLA 后训练，把人类在执行过程中的即时纠错纳入臂手协同系统，并设计干预感知的数据采样策略，优先学习真正暴露失败模式的片段。论文给出真实机器人实验结果，平均任务成功率比单纯离线微调高出约 25%，对“如何把通用 VLA 调到具体硬件和复杂接触任务上”很有现实意义。
+- **摘要**：DexHiL 面向灵巧操作里的 VLA 后训练，把人类在执行过程中的即时纠错纳入臂手协同系统，并设计干预感知的数据采样策略，优先学习真正暴露失败模式的片段。论文给出真实机器人实验结果，说明“人类轻量介入 + 后训练”能够更快把通用 VLA 调到复杂接触任务上。
 
-**5. [How to Think in Latent Space: Structured Cognitive Prompting for World Models](https://arxiv.org/abs/2603.09736)**
-- **来源平台**：arXiv
+**5. [PlayWorld: Exploratory Autoregressive Visual World Models with Playful Interventions](https://jacobjj.github.io/playworld/)**
+- **来源平台**：Project Page
 - **子方向**：世界模型
-- **推荐等级**：中
-- **摘要**：这篇工作把关注点放在世界模型的潜空间推理过程，提出 structured cognitive prompting，希望在不显式展开高成本像素轨迹的前提下，把规划、状态演化和策略选择转化为更结构化的潜变量思考流程。公开信息目前主要来自搜索摘要，但方向上契合“让 world model 更可控、更可解释地服务决策”的近期趋势。（来自搜索摘要）
+- **推荐等级**：高
+- **摘要**：PlayWorld 把“先探索、后建模”作为世界模型训练核心，让智能体在仿真环境中通过 playful interventions 主动制造状态变化，再学习自回归视觉世界模型。项目页强调这种 agent-centric 建模更有利于把决策相关动态与静态背景解耦，对规划、控制和仿真迁移都更有意义。
 
 ### 行业新闻 / 产品动态
 
-**1. [Genesis AI Launches With $105 Million To Build A Universal Robotics Foundation Model And Horizontal Robotics Platform](https://www.prnewswire.com/apac/news-releases/genesis-ai-launches-with-105-million-to-build-a-universal-robotics-foundation-model-and-horizontal-robotics-platform-302396516.html)**
-- **来源平台**：PR Newswire
-- **子方向**：具身智能
-- **推荐等级**：中
-- **摘要**：Genesis AI 于 2026-03-11 宣布完成 1.05 亿美元融资，定位为通用机器人基础模型与横向机器人平台公司，叙事重点放在以物理引擎、合成数据和基础模型支撑跨机器人形态迁移。虽然目前公开信息偏公司公告口径，但它反映资本市场仍在持续押注 physical AI 与通用机器人软件栈的基础设施机会。
-
-**2. [Luminous Ventures launches $63 million fund to back AI “supercycle” at seed stage](https://tech.eu/2026/03/11/luminous-ventures-launches-63-million-fund-to-back-ai-supercycle-at-seed-stage/)**
-- **来源平台**：tech.eu
-- **子方向**：AI robotics
-- **推荐等级**：低
-- **摘要**：tech.eu 报道 Luminous Ventures 推出 6300 万美元新基金，投资方向覆盖 AI、机器人和相关基础设施。它不是直接的产品发布，但能作为行业侧信号，说明早期资本对“AI 与机器人结合”仍保持积极配置意愿。对观察具身智能融资环境、创业窗口和欧洲市场温度有一定辅助价值。
+暂无相关内容。
 
 ### 一手动态
 
@@ -66,19 +56,15 @@
 
 ### 行业新闻 / 产品动态
 
-**1. [Anthropic opens first office in Asia Pacific, boosting AI collaboration and innovation](https://www.anthropic.com/news/anthropic-opens-first-office-in-asia-pacific-boosting-ai-collaboration-and-innovation)**
-- **来源平台**：Anthropic
-- **子方向**：大模型
-- **推荐等级**：中
-- **摘要**：Anthropic 于 2026-03-10 宣布在悉尼设立其首个亚太办公室，重点面向本地研究合作、企业采用和政策沟通。虽然这不是新模型发布，但它反映头部大模型公司正加快区域化落地与商业网络建设，侧面说明模型服务和合规支持正在向全球市场进一步延展。
+暂无相关内容。
 
 ### 一手动态
 
-**1. [Use Gemini in Google Workspace to stay in the flow of work](https://workspace.google.com/blog/product-announcements/use-gemini-in-google-workspace-to-stay-in-the-flow-of-work)**
-- **来源平台**：Google Workspace Blog
-- **子方向**：大模型
+**1. [Automated Vehicle Safety Public Meeting](https://www.nhtsa.gov/event/automated-vehicle-safety-public-meeting)**
+- **来源平台**：NHTSA
+- **子方向**：自动驾驶
 - **推荐等级**：中
-- **摘要**：Google Workspace 官方博客在 2026-03-10 更新 Gemini 办公流能力，强调在文档、邮件和协作场景内更连续地调用模型辅助生成、检索与整理功能。它不属于底座模型升级，但反映大模型产品竞争正从参数规模转向工作流渗透、用户留存和实际协同效率。
+- **摘要**：美国国家公路交通安全管理局在 2026-03-10 举办自动驾驶安全公开会议，议题覆盖事故数据、监管证据、部署责任和公众安全沟通。虽然它不是产品发布，但这是判断美国监管层如何审视 robotaxi、干线物流自动驾驶和测试扩张节奏的重要一手信号。
 
 ## 2026-03-09
 
@@ -88,19 +74,31 @@
 
 ### 行业新闻 / 产品动态
 
-**1. [Zoox is mapping more cities as it expands robotaxi tests](https://techcrunch.com/2026/03/09/zoox-is-mapping-more-cities-as-it-expands-robotaxi-tests/)**
-- **来源平台**：TechCrunch
+**1. [WeRide and Geely Farizon to Launch World's First Level-4 Autonomous Van](https://www.weride.ai/news/1105)**
+- **来源平台**：WeRide
 - **子方向**：自动驾驶
 - **推荐等级**：高
-- **摘要**：TechCrunch 于 2026-03-09 报道，Zoox 正把机器人出租车测试的测绘和验证工作扩展到更多美国城市，为后续商用部署铺路。相较单次演示，这类“先测绘、再验证、再放量”的城市扩张节奏更能反映自动驾驶公司真实的运营推进情况和监管沟通成熟度。
+- **摘要**：文远知行与吉利远程在 2026-03-09 宣布将推出 Level-4 自动驾驶货运车，把自动驾驶能力从 robotaxi 进一步推进到城市物流车型。公开信息给出了合作方、车型方向和落地场景，说明自动驾驶商业化正在从单点示范转向更明确的运营载体与量产协同。
+
+**2. [ABB and NVIDIA to develop AI systems for smart factories](https://global.abb/group/en/media/press-releases/2026/03/abb-and-nvidia-to-develop-ai-systems-for-smart-factories)**
+- **来源平台**：ABB
+- **子方向**：AI robotics
+- **推荐等级**：高
+- **摘要**：ABB 与 NVIDIA 于 2026-03-09 宣布扩展合作，把生成式 AI、数字孪生和 Omniverse 接入工业机器人与工厂运维体系。它的价值不在单一模型发布，而在于 physical AI 正通过仿真、视觉感知和制造执行系统的结合，更快进入真实工业流程。
+
+**3. [NEURA Robotics and Qualcomm Technologies, Inc. announce strategic collaboration to power cognitive robots](https://www.qualcomm.com/news/releases/2026/03/neura-robotics-and-qualcomm-technologies--inc--announce-str)**
+- **来源平台**：Qualcomm
+- **子方向**：具身智能
+- **推荐等级**：中
+- **摘要**：NEURA Robotics 与高通在 2026-03-09 公布战略合作，计划将 Qualcomm Dragonwing 平台用于认知机器人系统，重点覆盖边缘算力、感知推理和系统级集成。这条消息的重要性在于，它展示了“机器人本体厂商 + 芯片平台”正加速围绕认知机器人构建可量产的软件硬件栈。
 
 ### 一手动态
 
 **1. [Inside Zoox's Secret Approach to Mapping New Cities](https://zoox.com/journal/inside-zooxs-secret-approach-to-mapping-new-cities)**
 - **来源平台**：Zoox
 - **子方向**：自动驾驶
-- **推荐等级**：高
-- **摘要**：Zoox 官网文章披露了其进入新城市前的测绘方法论，核心在于先构建高质量地图和场景先验，再逐步推进真实道路验证。这类一手材料虽然不会给出完整商业指标，但能补足媒体报道没有展开的技术运营细节，对判断自动驾驶扩张路径是否可复制很有帮助。
+- **推荐等级**：中
+- **摘要**：Zoox 官方文章披露了其进入新城市前的地图采集、道路规则建模和验证流程，核心是先建立高质量地图和场景先验，再逐步推进真实道路验证。相比媒体报道，这类一手材料更能补足自动驾驶公司扩城背后的技术运营方法论，对判断其复制能力和落地成本很有参考价值。
 
 ## 上周周报
 
