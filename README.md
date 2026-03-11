@@ -6,6 +6,44 @@
 
 # AI前沿技术简报
 
+## 2026-03-11
+
+### 论文 / 技术报告
+
+**1. [AtomVLA: Vision-Language-Action Model with Predictive Latent World Models for Robotic Manipulation](https://arxiv.org/abs/2603.08519)**
+- **来源平台**：Arxiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：该工作将 VLA 与预测式潜在世界模型结合，目标是在机器人操作中同时提升语义理解与动作规划能力。方法强调通过可预测的潜空间动态改进长时序决策稳定性，并尝试缓解仅靠行为克隆带来的泛化瓶颈，具备较强工程落地潜力。（来自搜索摘要）
+
+**2. [3PoinTr: Vision-Language-Centric 3D Point Tracks for Robotics Manipulation](https://arxiv.org/abs/2603.08485)**
+- **来源平台**：Arxiv
+- **子方向**：3D视觉
+- **推荐等级**：中
+- **摘要**：3PoinTr 聚焦机器人操作中的三维点轨迹表示，将视觉语言信息与 3D 点级时序建模结合，用于提升跨视角与跨任务的感知一致性。其核心价值在于为抓取与交互过程提供更稳定的空间跟踪先验，强化感知到控制链路。（来自搜索摘要）
+
+### 行业新闻 / 产品动态
+
+**1. [Humanoid Global Announces Strategic Advisory Board to Accelerate AI-Powered Industrial Automation](https://www.taiwannews.com.tw/news/6070806)**
+- **来源平台**：Taiwan News / GlobeNewswire
+- **子方向**：具身智能
+- **推荐等级**：低
+- **摘要**：Humanoid Global 在 2026-03-11 披露新顾问委员会，成员覆盖机器人自动化、工业运营与资本领域，重点支持其 AI 驱动工业自动化路线。该信息以组织与资源整合为主，技术细节有限，但可作为具身智能产业化推进节奏的早期信号持续跟踪。
+
+**2. [Yann LeCun’s AMI Labs raises $1.03 billion to build world models](https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/)**
+- **来源平台**：TechCrunch
+- **子方向**：世界模型
+- **推荐等级**：高
+- **摘要**：TechCrunch 报道 AMI Labs 完成 10.3 亿美元融资，围绕世界模型方向布局基础研究与产品化路径，并获得多家大型科技公司与产业资本支持。该事件显示“可预测环境建模”正从学术热点转向高强度产业投资赛道，商业验证预期提升。
+
+### 一手动态
+
+**1. [AMI](https://www.ami.co/)**
+- **来源平台**：AMI Labs（官网）
+- **子方向**：世界模型
+- **推荐等级**：中
+- **摘要**：AMI 官网持续以“开放且可理解的世界模型”为核心叙事，强调将对物理与环境动态的建模能力转化为可扩展的平台能力。虽然页面披露的技术细节有限，但其一手定位与公开愿景可为后续论文、产品发布和生态合作提供基础追踪锚点。
+
 ## 2026-03-10
 
 ### 论文 / 技术报告
@@ -102,5 +140,5 @@
 
 ## 全部周报
 
-- [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-10 的内容
+- [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-11 的内容
 - [2026-03-02.md](./每周新闻汇总/2026-03-02.md)：包含 2026-03-08 至 2026-03-08 的内容
