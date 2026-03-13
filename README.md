@@ -4,25 +4,67 @@
 
 ## 最新周报
 
-# AI前沿技术简报
+### 2026-03-13
 
-## 2026-03-12
+#### 论文 / 技术报告
 
-### 论文 / 技术报告
+**1. [3DGS-Drag: Dragging Gaussians For Intuitive Point-based 3D Editing](https://arxiv.org/abs/2603.11623)**
+- **来源平台**：arXiv
+- **子方向**：3D视觉
+- **推荐等级**：高
+- **摘要**：3DGS-Drag 试图把二维 drag 交互扩展到三维 Gaussian 场景编辑，通过点级约束让用户直接拖拽目标区域完成几何与外观修改。它的价值不只在交互形式更新，而是让 3DGS 这类表示更接近可控内容创作和三维场景快速修订，对 3D 生成与编辑工具链很有启发。
+
+**2. [What Makes a Robot What It Is? Self-Perception of Robot Body Morphology via Neural Radiance Fields](https://arxiv.org/abs/2603.11591)**
+- **来源平台**：arXiv
+- **子方向**：AI robotics
+- **推荐等级**：中
+- **摘要**：这篇工作研究机器人如何借助 Neural Radiance Fields 建立对自身形体结构和运动边界的自感知模型，把机器人本体理解从固定 CAD 先验推进到可学习表征。对自适应控制、仿真校准和机器人“认识自己”的能力建设来说，这是一个很值得跟踪的方向。
+
+**3. [HUMHand: Foundation Model for Human-Machine Embodied Interaction Using Dexterous Hand Kinematics](https://arxiv.org/abs/2603.11031)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：HUMHand 围绕灵巧手运动学构建 foundation model，希望把人机交互理解、动作生成和控制迁移统一到同一表征空间中。论文关注点不仅是手部姿态识别，而是让 dexterous hand 成为人机协作和具身操作中的通用接口，对具身智能和机器人操作都很关键。
+
+**4. [A Two-Stage RL Approach for Peg-in-Hole Assembly via a 7-DoF Manipulator](https://arxiv.org/abs/2603.10975)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：中
+- **摘要**：作者把插销装配任务拆成“接近”和“插入”两个强化学习阶段，分别处理大尺度位姿对齐与接触阶段的微调控制，以提升 7 自由度机械臂在窄容差装配中的稳定性。它更偏工程落地，但对高精度机器人操作和接触丰富任务具有直接参考价值。
+
+#### 行业新闻 / 产品动态
+
+**1. [Welcome Pollen Robotics to Hugging Face](https://huggingface.co/blog/welcome-pollen-robotics)**
+- **来源平台**：Hugging Face
+- **子方向**：AI robotics
+- **推荐等级**：高
+- **摘要**：Hugging Face 在 2026-03-13 宣布收购开源人形机器人公司 Pollen Robotics，并明确将 Reachy 2 与 LeRobot、Hub 分发体系和开源模型生态进一步整合。对行业来说，这不只是一次收购，而是“开源模型平台 + 开源机器人本体”开始形成更完整产品栈的明确信号。
+
+#### 一手动态
 
 暂无相关内容。
 
-### 行业新闻 / 产品动态
+### 2026-03-12
+
+#### 论文 / 技术报告
 
 暂无相关内容。
 
-### 一手动态
+#### 行业新闻 / 产品动态
+
+**1. [SLAMcore secures $17M Series A to scale its spatial intelligence platform, accelerating global growth](https://www.slamcore.com/news/slamcore-secures-17m-series-a-to-scale-its-spatial-intelligence-platform-accelerating-global-growth)**
+- **来源平台**：SLAMcore
+- **子方向**：3D视觉
+- **推荐等级**：高
+- **摘要**：SLAMcore 在 2026-03-12 宣布完成 1700 万美元 A 轮融资，表示将继续扩展其 spatial intelligence 平台，把视觉定位、空间理解与机器人和自动化部署结合起来。它的信号价值在于，围绕 SLAM、空间感知与边缘智能的基础能力，仍在持续获得产业资金支持与场景验证。
+
+#### 一手动态
 
 暂无相关内容。
 
-## 2026-03-11
+### 2026-03-11
 
-### 论文 / 技术报告
+#### 论文 / 技术报告
 
 **1. [ReCoSplat: Autoregressive Feed-Forward Gaussian Splatting Using Render-and-Compare](https://arxiv.org/abs/2603.09968)**
 - **来源平台**：arXiv
@@ -84,7 +126,7 @@
 - **推荐等级**：中
 - **摘要**：APPLV 让大型视觉语言模型直接预测经典规划器参数，再与任务驱动控制栈组合完成具身导航和执行。它的价值在于把大模型语义理解能力和传统规划器的可解释性、安全约束结合起来，为“VLM 负责高层决策、规划器负责可执行控制”的路线补了一层自适应桥接。
 
-### 行业新闻 / 产品动态
+#### 行业新闻 / 产品动态
 
 **1. [SBVA invests $30 million in Yann LeCun-founded AMI to pioneer the era of world models](https://www.prnewswire.com/news-releases/sbva-invests-30-million-in-yann-lecunfounded-ami-to-pioneer-the-era-of-world-models-302709070.html)**
 - **来源平台**：PR Newswire
@@ -110,21 +152,21 @@
 - **推荐等级**：低
 - **摘要**：Hoverfly 与 Overland AI 扩大合作，把系留无人机感知与地面自主导航能力做系统级联动，面向空地一体化无人系统。它不是通用模型发布，但属于具身智能与自主机器人在特种作业场景中的真实部署信号，适合作为行业跟踪条目保留。
 
-### 一手动态
+#### 一手动态
 
 暂无相关内容。
 
-## 2026-03-10
+### 2026-03-10
 
-### 论文 / 技术报告
-
-暂无相关内容。
-
-### 行业新闻 / 产品动态
+#### 论文 / 技术报告
 
 暂无相关内容。
 
-### 一手动态
+#### 行业新闻 / 产品动态
+
+暂无相关内容。
+
+#### 一手动态
 
 **1. [Automated Vehicle Safety Public Meeting](https://www.nhtsa.gov/event/automated-vehicle-safety-public-meeting)**
 - **来源平台**：NHTSA
@@ -132,13 +174,13 @@
 - **推荐等级**：中
 - **摘要**：美国国家公路交通安全管理局在 2026-03-10 举办自动驾驶安全公开会议，议题覆盖事故数据、监管证据、部署责任和公众安全沟通。虽然它不是产品发布，但这是判断美国监管层如何审视 robotaxi、干线物流自动驾驶和测试扩张节奏的重要一手信号。
 
-## 2026-03-09
+### 2026-03-09
 
-### 论文 / 技术报告
+#### 论文 / 技术报告
 
 暂无相关内容。
 
-### 行业新闻 / 产品动态
+#### 行业新闻 / 产品动态
 
 **1. [WeRide and Geely Farizon to Launch World's First Level-4 Autonomous Van](https://www.weride.ai/news/1105)**
 - **来源平台**：WeRide
@@ -158,7 +200,7 @@
 - **推荐等级**：中
 - **摘要**：NEURA Robotics 与高通在 2026-03-09 公布战略合作，计划将 Qualcomm Dragonwing 平台用于认知机器人系统，重点覆盖边缘算力、感知推理和系统级集成。这条消息的重要性在于，它展示了“机器人本体厂商 + 芯片平台”正加速围绕认知机器人构建可量产的软件硬件栈。
 
-### 一手动态
+#### 一手动态
 
 **1. [Inside Zoox's Secret Approach to Mapping New Cities](https://zoox.com/journal/inside-zooxs-secret-approach-to-mapping-new-cities)**
 - **来源平台**：Zoox
@@ -168,11 +210,9 @@
 
 ## 上周周报
 
-# AI前沿技术简报
+### 2026-03-08
 
-## 2026-03-08
-
-### 论文 / 技术报告
+#### 论文 / 技术报告
 
 **1. [ReconDrive: Fast Feed-Forward 4D Gaussian Splatting for Autonomous Driving Scene Reconstruction](https://arxiv.org/abs/2603.07552)**
 - **来源平台**：arXiv
@@ -180,15 +220,15 @@
 - **推荐等级**：高
 - **摘要**：ReconDrive 面向自动驾驶闭环评测中的高保真场景重建，提出基于 VGGT 扩展的前馈式 4D Gaussian Splatting 框架，通过静态-动态 4D 组合与混合高斯预测头，在 nuScenes 上兼顾重建质量、视角合成与推理速度，为大规模城市驾驶仿真提供更可扩展的三维场景表示。
 
-### 行业新闻 / 产品动态
+#### 行业新闻 / 产品动态
 
 暂无相关内容。
 
-### 一手动态
+#### 一手动态
 
 暂无相关内容。
 
 ## 全部周报
 
-- [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-12 的内容
+- [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-13 的内容
 - [2026-03-02.md](./每周新闻汇总/2026-03-02.md)：包含 2026-03-08 至 2026-03-08 的内容

@@ -13,7 +13,7 @@ WEEKLY_FILE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.md$")
 
 
 def extract_dates(text: str) -> list[str]:
-    return re.findall(r"^## (\d{4}-\d{2}-\d{2})$", text, flags=re.MULTILINE)
+    return re.findall(r"^### (\d{4}-\d{2}-\d{2})$", text, flags=re.MULTILINE)
 
 
 def build_readme(files: list[Path]) -> str:
