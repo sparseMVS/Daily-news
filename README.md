@@ -16,7 +16,7 @@
 - **来源平台**：Barron's
 - **子方向**：大模型
 - **推荐等级**：中
-- **摘要**：Barron's 在 2026-03-14 援引媒体报道，称 Meta 再次推迟新模型 “Avocado”，并在评估是否引入 Google Gemini 作为部分能力支持。即便仍属报道阶段，这条消息也反映出头部模型厂商在发布时间、能力达标和外部能力整合之间的压力正在加大。（来自搜索摘要）
+- **摘要**：Barron's 在 2026-03-14 援引媒体报道，称 Meta 再次推迟新模型 “Avocado”，并在评估是否引入 Google Gemini 作为部分能力支持。该消息虽非官方发布，但反映头部厂商在发布时间和能力达标上的现实压力。（来自搜索摘要）
 
 #### 一手动态
 
@@ -26,35 +26,7 @@
 
 #### 论文 / 技术报告
 
-**1. [3DGS-Drag: Dragging Gaussians For Intuitive Point-based 3D Editing](https://arxiv.org/abs/2603.11623)**
-- **来源平台**：arXiv
-- **子方向**：3D视觉
-- **推荐等级**：高
-- **摘要**：3DGS-Drag 试图把二维 drag 交互扩展到三维 Gaussian 场景编辑，通过点级约束让用户直接拖拽目标区域完成几何与外观修改。它的价值不只在交互形式更新，而是让 3DGS 这类表示更接近可控内容创作和三维场景快速修订，对 3D 生成与编辑工具链很有启发。
-
-**2. [HUMHand: Foundation Model for Human-Machine Embodied Interaction Using Dexterous Hand Kinematics](https://arxiv.org/abs/2603.11031)**
-- **来源平台**：arXiv
-- **子方向**：具身智能
-- **推荐等级**：高
-- **摘要**：HUMHand 围绕灵巧手运动学构建 foundation model，希望把人机交互理解、动作生成和控制迁移统一到同一表征空间中。论文关注点不仅是手部姿态识别，而是让 dexterous hand 成为人机协作和具身操作中的通用接口，对具身智能和机器人操作都很关键。
-
-**3. [ARACH: Training-free Inference-time Plug-in for LLMs via Global Attention Reallocation](https://arxiv.org/abs/2603.11067)**
-- **来源平台**：arXiv
-- **子方向**：大模型
-- **推荐等级**：中
-- **摘要**：ARACH 提出无需再训练即可在推理时插入的大模型插件，通过全局注意力重分配改善长上下文和复杂任务下的计算分布。它的价值不在替代训练，而是在于为已有 LLM 提供低成本、可即插即用的推理增强路径。
-
-**4. [DeReasoning: A General and Efficient Post-Training Paradigm for Reasoning Large Language Models](https://arxiv.org/abs/2603.11193)**
-- **来源平台**：arXiv
-- **子方向**：大模型
-- **推荐等级**：高
-- **摘要**：DeReasoning 聚焦推理型大语言模型的后训练，试图用更通用且更低成本的范式同时提升推理质量与效率。与只针对单一 benchmark 的调参不同，这类方法更强调 reasoning LLM 的泛化能力和可复用训练流程。
-
-**5. [DatedGPT: Temporally Aware Pretraining of Large Language Models](https://arxiv.org/abs/2603.11838)**
-- **来源平台**：arXiv
-- **子方向**：大模型
-- **推荐等级**：高
-- **摘要**：DatedGPT 关注大语言模型的时间感知预训练，把知识时间戳显式引入训练过程，试图缓解新闻、事实更新和时效性问答中的“知识日期错位”问题。对需要处理最新事实和时序推理的模型来说，这是一条很实用的增强路线。
+暂无相关内容。
 
 #### 行业新闻 / 产品动态
 
@@ -62,13 +34,37 @@
 - **来源平台**：Hugging Face
 - **子方向**：AI robotics
 - **推荐等级**：高
-- **摘要**：Hugging Face 在 2026-03-13 宣布收购开源人形机器人公司 Pollen Robotics，并明确将 Reachy 2 与 LeRobot、Hub 分发体系和开源模型生态进一步整合。对行业来说，这不只是一次收购，而是“开源模型平台 + 开源机器人本体”开始形成更完整产品栈的明确信号。
+- **摘要**：Hugging Face 在 2026-03-13 宣布收购开源人形机器人公司 Pollen Robotics，并表示将 Reachy 2 与 LeRobot、Hub 分发体系和开源模型生态进一步整合，显示开源模型平台正在向“模型+机器人本体”联动扩展。
 
 **2. [Tesla's Grand Plan for Its Cybercab Sparks Mixed Reactions From Investors](https://www.wsj.com/business/autos/teslas-grand-plan-for-its-cybercab-sparks-mixed-reactions-from-investors-6d67d29a)**
 - **来源平台**：The Wall Street Journal
 - **子方向**：自动驾驶
 - **推荐等级**：中
-- **摘要**：华尔街日报在 2026-03-13 报道，特斯拉围绕 Cybercab 的自动驾驶商业化规划引发投资者分化，争议集中在量产节奏、无方向盘方案和 Robotaxi 规模化兑现路径。这类讨论说明自动驾驶赛道的关注点已经从技术演示进一步转向商业兑现与监管可执行性。（来自搜索摘要）
+- **摘要**：华尔街日报在 2026-03-13 报道，特斯拉 Cybercab 商业化计划引发投资者分歧，争论集中于量产节奏、无方向盘方案与 Robotaxi 规模化兑现路径，体现自动驾驶关注点正从演示走向商业可执行性。（来自搜索摘要）
+
+**3. [Travis Kalanick launches a new company called Atoms to build an AI-based operating system for restaurants](https://techcrunch.com/2026/03/13/travis-kalanick-launches-a-new-company-called-atoms-to-build-an-ai-based-operating-system-for-restaurants/)**
+- **来源平台**：TechCrunch
+- **子方向**：AI robotics
+- **推荐等级**：中
+- **摘要**：TechCrunch 报道 Travis Kalanick 创立 Atoms，定位面向餐饮场景的 AI 操作系统，强调把软件自动化与门店执行能力结合。该动作代表垂直行业开始把 AI 从“工具层”推进到“运营系统层”。
+
+**4. [Ford’s new AI assistant helps customers find vehicle info](https://techcrunch.com/2026/03/13/fords-new-ai-assistant-helps-customers-find-vehicle-info/)**
+- **来源平台**：TechCrunch
+- **子方向**：自动驾驶
+- **推荐等级**：中
+- **摘要**：TechCrunch 报道福特上线面向车主的 AI 助手，用于检索车辆功能和用车信息，说明传统车企在将生成式 AI 融入售后服务和用户交互方面持续提速。
+
+**5. [Zendesk acquires AI-powered quality management startup Klaus](https://techcrunch.com/2026/03/13/zendesk-acquires-ai-powered-quality-management-startup-klaus/)**
+- **来源平台**：TechCrunch
+- **子方向**：其他
+- **推荐等级**：中
+- **摘要**：TechCrunch 报道 Zendesk 收购 AI 质检公司 Klaus，以补强客服场景下的自动评估与质量管理。此举反映企业软件厂商通过并购加快 Agent 与自动化能力拼图。
+
+**6. [xAI shifts three top members of technical staff into management roles](https://techcrunch.com/2026/03/13/xai-shifts-three-top-members-of-technical-staff-into-management-roles/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：TechCrunch 报道 xAI 将三名核心技术人员调整至管理岗位，显示公司从技术攻坚向组织扩张与产品化推进并行转变，这通常是头部模型公司进入新阶段的组织信号。
 
 #### 一手动态
 
