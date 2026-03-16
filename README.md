@@ -4,6 +4,72 @@
 
 ## 最新周报
 
+### 2026-03-16
+
+#### 论文 / 技术报告
+
+**1. [FLEXEVAL: A Flexible and Configurable Evaluation Framework for Foundation Models](https://arxiv.org/abs/2603.12778)**
+- **来源平台**：arXiv
+- **子方向**：大模型
+- **推荐等级**：高
+- **摘要**：FLEXEVAL 试图为 foundation models 提供更灵活、可配置的统一评测框架，把任务、指标和评测协议抽象成可组合模块。它的价值在于降低大模型评测碎片化和结果难复现的问题，让研究者和工程团队更容易建立一致的比较基线。
+
+**2. [A Portable Plug-and-Play Weather Forecasting System Based on Large Language Models and External Weather Models](https://arxiv.org/abs/2603.12695)**
+- **来源平台**：arXiv
+- **子方向**：天气预测
+- **推荐等级**：高
+- **摘要**：这篇工作提出可移植、可插拔的天气预测系统，把大语言模型与外部天气模型结合，试图在不同区域、不同数据条件下保持更稳定的预报能力。它的意义不只是把 LLM 接进气象流程，而是探索“通用语言推理 + 专业天气模型”协同工作的实际工程路径。
+
+**3. [DRIVE-EVAL: A Multi-Level Evaluation Suite for Autonomous Driving Foundation Models](https://arxiv.org/abs/2603.12657)**
+- **来源平台**：arXiv
+- **子方向**：自动驾驶
+- **推荐等级**：高
+- **摘要**：DRIVE-EVAL 围绕自动驾驶 foundation model 设计多层级评测套件，希望把感知、规划、行为理解和安全性评估纳入统一框架。对端到端驾驶和多模态驾驶模型来说，这类系统化评测基座很重要，因为它能缓解“模型很强但难以横向比较”的现实问题。
+
+**4. [AutoDriveVLM: Robustifying Vision-Language Models for Complex Lane Changes in Autonomous Driving](https://arxiv.org/abs/2603.12542)**
+- **来源平台**：arXiv
+- **子方向**：自动驾驶
+- **推荐等级**：中
+- **摘要**：AutoDriveVLM 聚焦自动驾驶中的复杂变道决策，尝试提升视觉语言模型在密集交通、遮挡和多车交互条件下的鲁棒性。虽然它仍偏研究阶段，但方向很明确，就是把 VLM 从“看懂路况”进一步推进到“在高风险动作上做出更稳判断”。
+
+#### 行业新闻 / 产品动态
+
+**1. [Meta Delays New AI Model Again as It Weighs Google Tie-Up, Report Says](https://www.barrons.com/articles/meta-delays-new-ai-model-again-as-it-weighs-google-tie-up-report-says-865247d4)**
+- **来源平台**：Barron's
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：Barron's 在 2026-03-14 援引媒体报道，称 Meta 再次推迟新模型 “Avocado”，并在评估是否引入 Google Gemini 作为部分能力支持。即便仍属报道阶段，这条消息也反映出头部模型厂商在发布时间、能力达标和外部能力整合之间的压力正在加大。（来自搜索摘要）
+
+**2. [Cerebras and Perplexity deploy Qwen3-235B, one of the world’s most advanced open-source models, across U.S. data centers](https://www.cerebras.ai/blog/cerebras-and-perplexity-deploy-qwen3-235b-one-of-the-worlds-most-advanced-open-source-models-across-us-data-centers)**
+- **来源平台**：Cerebras
+- **子方向**：大模型
+- **推荐等级**：高
+- **摘要**：Cerebras 与 Perplexity 宣布在美国数据中心部署 Qwen3-235B，把高参数开源模型与高速推理基础设施直接绑定。它的信号价值在于，行业竞争点正在从“谁有模型”快速转向“谁能把大模型以更低时延和更稳定成本交付成服务”。
+
+**3. [Waabi announces that Volvo Autonomous Solutions is expanding its commercialization with integrated Waabi Driver to transform the AV trucking industry](https://waabi.ai/waabi-announces-that-volvo-autonomous-solutions-is-expanding-its-commercialization-with-integrated-waabi-driver-to-transform-the-av-trucking-industry/)**
+- **来源平台**：Waabi
+- **子方向**：自动驾驶
+- **推荐等级**：高
+- **摘要**：Waabi 宣布 Volvo Autonomous Solutions 将在自动驾驶卡车商业化路径中整合 Waabi Driver，把仿真、驾驶模型和量产卡车平台进一步结合。对自动驾驶行业来说，这类“软件栈进入真实商用车型”的进展，比单纯演示更能反映落地成熟度和量产节奏。
+
+**4. [PowerAI and Midcontinent launch AI-powered load forecasting solution](https://www.poweraitech.com/news/powerai-and-midcontinent-launch-ai-powered-load-forecasting-solution-to-help-electricity-providers-weather-extreme-weather-and-risk/)**
+- **来源平台**：PowerAI
+- **子方向**：电力预测
+- **推荐等级**：中
+- **摘要**：PowerAI 与 Midcontinent 推出 AI 负荷预测方案，重点面向极端天气和电网风险场景，帮助电力运营方提升负荷预测、调度准备和韧性响应能力。这类产品化动作说明能源 AI 的价值正在从单点建模扩展到更贴近真实运营决策的工作流里。
+
+**5. [WeatherAI and Howso collaborate to improve weather forecasting with causal AI](https://www.weatheraitech.com/news/weatherai-and-howso-combine-causal-ai-and-advanced-weather-modeling-for-more-accurate-weather-forecasting/)**
+- **来源平台**：WeatherAI
+- **子方向**：天气预测
+- **推荐等级**：中
+- **摘要**：WeatherAI 与 Howso 宣布把因果 AI 与天气建模结合，用来提升复杂天气场景下的预报准确率。它值得关注的地方在于，气象 AI 的商业化叙事正在从单纯拟合精度转向“更可解释、更可泛化”的建模能力，这对高风险天气应用很关键。
+
+#### 一手动态
+
+暂无相关内容。
+
+## 上周周报
+
 ### 2026-03-14
 
 #### 论文 / 技术报告
@@ -234,27 +300,8 @@
 - **推荐等级**：中
 - **摘要**：Zoox 官方文章披露了其进入新城市前的地图采集、道路规则建模和验证流程，核心是先建立高质量地图和场景先验，再逐步推进真实道路验证。相比媒体报道，这类一手材料更能补足自动驾驶公司扩城背后的技术运营方法论，对判断其复制能力和落地成本很有参考价值。
 
-## 上周周报
-
-### 2026-03-08
-
-#### 论文 / 技术报告
-
-**1. [ReconDrive: Fast Feed-Forward 4D Gaussian Splatting for Autonomous Driving Scene Reconstruction](https://arxiv.org/abs/2603.07552)**
-- **来源平台**：arXiv
-- **子方向**：3D视觉
-- **推荐等级**：高
-- **摘要**：ReconDrive 面向自动驾驶闭环评测中的高保真场景重建，提出基于 VGGT 扩展的前馈式 4D Gaussian Splatting 框架，通过静态-动态 4D 组合与混合高斯预测头，在 nuScenes 上兼顾重建质量、视角合成与推理速度，为大规模城市驾驶仿真提供更可扩展的三维场景表示。
-
-#### 行业新闻 / 产品动态
-
-暂无相关内容。
-
-#### 一手动态
-
-暂无相关内容。
-
 ## 全部周报
 
+- [2026-03-16.md](./每周新闻汇总/2026-03-16.md)：包含 2026-03-16 至 2026-03-16 的内容
 - [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-14 的内容
 - [2026-03-02.md](./每周新闻汇总/2026-03-02.md)：包含 2026-03-08 至 2026-03-08 的内容
