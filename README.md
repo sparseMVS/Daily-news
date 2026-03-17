@@ -4,6 +4,43 @@
 
 ## 最新周报
 
+### 2026-03-17
+
+#### 论文 / 技术报告
+
+暂无相关内容。
+
+#### 行业新闻 / 产品动态
+
+**1. [Nvidia’s version of OpenClaw could solve its biggest problem: security](https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：高
+- **摘要**：Nvidia 在 GTC 2026 推出基于 OpenClaw 的 NemoClaw，主打企业级安全与隐私控制，并支持本地硬件部署与多模型接入。该动作显示 AI Agent 平台竞争正在从“能不能用”转向“能否在企业合规、数据治理与可控运行中落地”。
+
+**2. [Memories AI is building the visual memory layer for wearables and robotics](https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/)**
+- **来源平台**：TechCrunch
+- **子方向**：具身智能
+- **推荐等级**：中
+- **摘要**：Memories.ai 宣布与 Nvidia 合作，结合 Cosmos-Reason 2 与 Metropolis 构建可穿戴与机器人“视觉记忆层”，并强调视频检索与长期记忆能力。该方向补齐了物理世界 AI 的关键基础能力，对后续机器人与 AI 眼镜商业化有现实价值。
+
+**3. [Shopify is preparing for AI shopping agents to change everything, exec says](https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：Shopify 总裁在公开活动中表示公司正全面布局 agentic shopping，认为 AI 购物代理将成为电商新入口，并计划配套商家侧 AI 助手与支持协议。该信号反映平台型电商正提前重构“搜索-发现-购买”链路，以争夺代理时代流量分发权。
+
+**4. [ByteDance reportedly pauses global launch of its Seedance 2.0 video generator](https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/)**
+- **来源平台**：TechCrunch
+- **子方向**：视频生成
+- **推荐等级**：中
+- **摘要**：据报道，字节跳动在版权争议与法律风险上升后，暂停 Seedance 2.0 的全球发布计划，并继续完善知识产权防护措施。该事件说明视频生成赛道在模型能力之外，正进入“内容权属与合规审查”主导的产品化阶段。
+
+#### 一手动态
+
+暂无相关内容。
+
+
 ### 2026-03-16
 
 #### 论文 / 技术报告
@@ -302,6 +339,6 @@
 
 ## 全部周报
 
-- [2026-03-16.md](./每周新闻汇总/2026-03-16.md)：包含 2026-03-16 至 2026-03-16 的内容
+- [2026-03-16.md](./每周新闻汇总/2026-03-16.md)：包含 2026-03-16 至 2026-03-17 的内容
 - [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-14 的内容
 - [2026-03-02.md](./每周新闻汇总/2026-03-02.md)：包含 2026-03-08 至 2026-03-08 的内容
