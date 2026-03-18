@@ -4,6 +4,48 @@
 
 ## 最新周报
 
+### 2026-03-18
+
+#### 论文 / 技术报告
+
+暂无相关内容。
+
+#### 行业新闻 / 产品动态
+
+**1. [Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise](https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：高
+- **摘要**：TechCrunch 于 2026-03-17 报道，Mistral 在 GTC 2026 发布企业产品 Mistral Forge，强调客户可在自有基础设施与私有数据上“从零训练”模型，而不只做提示工程或微调。该定位直指企业对数据主权、可控性和长期供应风险的顾虑，也标志企业大模型竞争从“调用 API”转向“可自建、可治理、可持续迭代”的平台能力。
+
+**2. [OpenAI expands government footprint with AWS deal, report says](https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：高
+- **摘要**：TechCrunch 于 2026-03-17 援引消息称，OpenAI 正与 AWS 推进政府场景落地，覆盖 Amazon Bedrock 在 GovCloud 及 Classified Regions（Secret/Top Secret）中的部署能力，并延续其此前与五角大楼合作的节奏。该进展显示头部模型厂商正在加速进入高合规、强安全的公共部门市场，云厂商与模型公司的绑定关系进一步加深。
+
+**3. [World launches tool to verify humans behind AI shopping agents](https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：Tools for Humanity（World 项目）在 2026-03-17 发布 AgentKit 测试版，试图为“AI 代购/代理交易”提供可验证的人类授权层。方案基于 World ID，并与 Coinbase、Cloudflare 推动的 x402 协议衔接，目标是让网站判定代理背后是否存在真实且唯一用户。随着 agentic commerce 升温，这类“身份+支付+代理”基础设施可能成为电商与金融反欺诈的新竞争点。
+
+**4. [Gecko Robotics lands the largest U.S. Navy robotics deal yet](https://techcrunch.com/2026/03/17/gecko-robotics-lands-the-largest-u-s-navy-robotics-deal-yet/)**
+- **来源平台**：TechCrunch
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：TechCrunch 于 2026-03-17 报道，Gecko Robotics 与美国海军及 GSA 签署 5 年期 IDIQ 协议，首笔授标 5400 万美元、上限 7100 万美元，用于舰船巡检与资产健康监测。其机器人将服务于太平洋舰队首批 18 艘舰艇，并通过数字孪生与预测性维护缩短停航周期。该项目体现“机器人+工业 AI”在国防与关键基础设施中的规模化落地。
+
+**5. [Nvidia’s version of OpenClaw could solve its biggest problem: security](https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：TechCrunch 于 2026-03-16 报道，Nvidia 在 GTC 推出 NemoClaw，围绕企业 AI agent 的安全、隐私和治理能力做了系统包装，试图解决 agent 在生产环境中的信任门槛。与通用演示相比，这类“可审计、可控、可在本地部署”的方案更贴近企业采购逻辑，也意味着 Agent 平台竞争已进入工程化和合规化阶段。
+
+#### 一手动态
+
+暂无相关内容。
+
 ### 2026-03-17
 
 #### 论文 / 技术报告
@@ -339,6 +381,6 @@
 
 ## 全部周报
 
-- [2026-03-16.md](./每周新闻汇总/2026-03-16.md)：包含 2026-03-16 至 2026-03-17 的内容
+- [2026-03-16.md](./每周新闻汇总/2026-03-16.md)：包含 2026-03-16 至 2026-03-18 的内容
 - [2026-03-09.md](./每周新闻汇总/2026-03-09.md)：包含 2026-03-09 至 2026-03-14 的内容
 - [2026-03-02.md](./每周新闻汇总/2026-03-02.md)：包含 2026-03-08 至 2026-03-08 的内容
