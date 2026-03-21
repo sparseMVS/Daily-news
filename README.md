@@ -8,19 +8,57 @@
 
 #### 论文 / 技术报告
 
-暂无相关内容。
+**1. [Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding](https://arxiv.org/abs/2603.19235v1)**
+- **来源平台**：arXiv
+- **子方向**：3D视觉
+- **推荐等级**：高
+- **摘要**：arXiv 于 2026-03-19 发布该工作，提出 VEGA-3D，把预训练视频扩散模型当作潜在世界模拟器，从中间噪声层抽取时空特征并与多模态模型融合，在无需显式 3D 监督的前提下补足几何感知。论文在 3D 场景理解、空间推理和具身操作基准上优于现有方法，说明生成模型中的隐式三维先验可直接转化为物理世界理解能力。
+
+**2. [OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2603.19201v1)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：该论文于 2026-03-19 发布，围绕接触密集型机器人操作提出 OmniVTA 框架，并同步开源覆盖 86 项任务、2.1 万余条轨迹的视觉-触觉-动作数据集。方法把触觉编码、短时接触世界模型、接触感知策略与 60Hz 闭环控制结合起来，在真实机器人实验中展现出更强的接触预测、误差纠偏与跨对象泛化能力。
+
+**3. [DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding](https://arxiv.org/abs/2603.19219v1)**
+- **来源平台**：arXiv
+- **子方向**：自动驾驶
+- **推荐等级**：中
+- **摘要**：DriveTok 于 2026-03-19 提出统一的 3D 驾驶场景 tokenizer，用 3D deformable cross-attention 将多视角视觉基础模型特征压缩为 scene tokens，并同时服务 RGB、深度、语义与占据重建。该思路试图为自动驾驶中的 world model、VLA 与多任务感知系统提供共享表示底座，兼顾压缩效率与跨视角一致性。
+
+**4. [FASTER: Rethinking Real-Time Flow VLAs](https://arxiv.org/abs/2603.19199v1)**
+- **来源平台**：arXiv
+- **子方向**：具身智能
+- **推荐等级**：高
+- **摘要**：FASTER 在 2026-03-19 重新定义实时 VLA 的“反应时间”问题，通过 Horizon-Aware Schedule 优先生成近端动作，并结合流式 client-server 推理链路，把首个动作延迟显著压缩。论文在真实机器人和动态乒乓任务上展示了更快且更平滑的响应，对消费级 GPU 上部署通用具身策略尤其具有现实参考价值。
 
 #### 行业新闻 / 产品动态
+
+**1. [WordPress.com now lets AI agents write and publish posts, and more](https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：TechCrunch 于 2026-03-20 报道，WordPress.com 已允许 AI agents 直接起草、发布和管理网站内容，意味着 agent 正从对话式助手进一步走向真实生产工作流。对行业来说，这会降低内容发布门槛，也会加快机器生成内容在开放 Web 上的扩张，进而推动平台重新思考审校、署名与内容可信度治理机制。
+
+**2. [Uber to invest $1.25 billion in Rivian as part of new robotaxi deal](https://www.theverge.com/transportation/897105/uber-rivian-robotaxi-investment-deal)**
+- **来源平台**：The Verge
+- **子方向**：自动驾驶
+- **推荐等级**：高
+- **摘要**：The Verge 于 2026-03-19 报道，Uber 将在 2031 年前向 Rivian 投资 12.5 亿美元，首阶段计划从 2028 年起在旧金山和迈阿密部署基于 R2 的 robotaxi，并在 2031 年前覆盖 25 座城市。该交易显示平台方与整车厂正以更深的资本绑定推进自动驾驶商业化，竞争焦点也从单车能力转向车队部署与网络运营。
+
+**3. [Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says](https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/)**
+- **来源平台**：TechCrunch
+- **子方向**：大模型
+- **推荐等级**：中
+- **摘要**：TechCrunch 在 2026-03-19 援引 Cloudflare CEO Matthew Prince 的判断称，受生成式 AI agent 推动，在线 bot 流量可能在 2027 年超过人类流量。虽然这仍是趋势预测，但它直接指向 Web 基础设施、身份验证、限流和反滥用机制将被 agent 访问模式重写，也提示“面向机器的互联网”正在成为新的架构议题。
+
+#### 一手动态
 
 **1. [NVIDIA GTC 2026: Live Updates on What’s Next in AI](https://blogs.nvidia.com/blog/gtc-2026-news/)**
 - **来源平台**：NVIDIA Blog
 - **子方向**：AI robotics
-- **推荐等级**：中
-- **摘要**：NVIDIA 在 GTC 2026 现场更新中集中披露了其 agentic AI 与 physical AI 路线，包括 OpenShell/NemoClaw、Nemotron 生态扩展及与多家车企和工业伙伴的合作进展。该更新虽为滚动报道形式，但对理解头部算力厂商如何把“模型-基础设施-行业落地”打通具有较强参考价值。
-
-#### 一手动态
-
-暂无相关内容。
+- **推荐等级**：高
+- **摘要**：NVIDIA 官方 GTC 2026 滚动更新页于 2026-03-20 发布，并在 2026-03-21 继续更新，集中汇总 Vera Rubin 平台、OpenClaw/NemoClaw、本地 AI agents、physical AI、数字孪生与机器人演示等核心信息。作为近三天最密集的一手整合入口之一，它清晰呈现了 NVIDIA 如何把模型、基础设施、仿真与产业合作打包成完整的 agentic AI 与 physical AI 叙事。
 
 ### 2026-03-20
 
